@@ -1,0 +1,212 @@
+[16:44:24] [main/INFO]: ModLauncher running: args [--username, MicrosoftYoda, --version, forge-36.2.29, --gameDir, C:\Users\09009\Twitch\Minecraft\Instances\Ultima Fabula, --assetsDir, C:\Users\09009\Twitch\Minecraft\Install\assets, --assetIndex, 1.16, --uuid, b66d7e3bf613447d8ac31906c39b43f1, --accessToken, ????????, --userType, msa, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.29, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[16:44:24] [main/INFO]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
+[16:44:24] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[16:44:24] [main/INFO]: OptiFineTransformationService.onLoad
+[16:44:24] [main/INFO]: OptiFine ZIP file: C:\Users\09009\Twitch\Minecraft\Instances\Ultima Fabula\mods\OptiFine_1.16.5_HD_U_G8.jar
+[16:44:24] [main/INFO]: Target.PRE_CLASS is available
+[16:44:24] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[16:44:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/09009/Twitch/Minecraft/Install/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[16:44:24] [main/INFO]: OptiFineTransformationService.initialize
+[16:44:27] [main/INFO]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 2:141 token recognition error at: ';'
+[16:44:27] [main/INFO]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[16:44:27] [main/INFO]: OptiFineTransformationService.transformers
+[16:44:27] [main/INFO]: Targets: 311
+[16:44:28] [main/INFO]: additionalClassesLocator: [optifine., net.optifine.]
+[16:44:28] [main/ERROR]: Mixin config minetogether.mixins.json does not specify "minVersion" property
+[16:44:28] [main/INFO]: Successfully loaded Mixin Connector [org.infernalstudios.infernalexp.mixin.MixinConnector]
+[16:44:28] [main/INFO]: Successfully loaded Mixin Connector [someoneelse.betternetherreforged.mixin.MixinConnector]
+[16:44:28] [main/INFO]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[16:44:28] [main/INFO]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[16:44:28] [main/INFO]: Successfully loaded Mixin Connector [com.fuzs.easymagic.mixin.MixinConnector]
+[16:44:29] [main/INFO]: Better Nether: Mixin Connected!
+[16:44:29] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.2.29, --gameDir, C:\Users\09009\Twitch\Minecraft\Instances\Ultima Fabula, --assetsDir, C:\Users\09009\Twitch\Minecraft\Install\assets, --uuid, b66d7e3bf613447d8ac31906c39b43f1, --username, MicrosoftYoda, --assetIndex, 1.16, --accessToken, ????????, --userType, msa, --versionType, release, --width, 1024, --height, 768]
+[16:44:29] [main/WARN]: Reference map 'immersivecooking.refmap.json' for immersivecooking.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:44:29] [main/INFO]: Loaded configuration file for Sodium: 24 options available, 2 override(s) found
+[16:44:29] [main/WARN]: Reference map 'nethers_delight.refmap.json' for nethers_delight.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:44:29] [main/INFO]: start
+[16:44:29] [main/INFO]: find block call
+[16:44:29] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[16:44:29] [main/INFO]: Patching LivingEntity#blockUsingShield
+[16:44:29] [main/INFO]: Patching LivingEntity#applyPotionDamageCalculations
+[16:44:30] [main/INFO]: Patching FishingBobberEntity#catchingFish
+[16:44:30] [main/INFO]: Patching ModelBakery#<init>
+[16:44:30] [main/INFO]: Patching net/minecraft/item/EnchantedBookItem
+[16:44:30] [main/WARN]: Error loading class: com/terraforged/mod/chunk/column/post/LayerDecorator (java.lang.ClassNotFoundException: null)
+[16:44:30] [main/WARN]: @Mixin target com.terraforged.mod.chunk.column.post.LayerDecorator was not found snowrealmagic.mixins.json:terraforged.MixinLayerDecorator
+[16:44:30] [main/WARN]: Error loading class: com/terraforged/mod/feature/feature/FreezeLayer (java.lang.ClassNotFoundException: null)
+[16:44:30] [main/WARN]: @Mixin target com.terraforged.mod.feature.feature.FreezeLayer was not found snowrealmagic.mixins.json:terraforged.MixinFreezeLayer
+[16:44:30] [main/INFO]: Patching CrossbowItem#onItemRightClick
+[16:44:30] [main/INFO]: Patching CrossbowItem#fireProjectile
+[16:44:30] [main/INFO]: Patching Item#getItemEnchantability
+[16:44:30] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[16:44:30] [main/INFO]: Patching LivingEntity#blockUsingShield
+[16:44:30] [main/INFO]: Patching LivingEntity#applyPotionDamageCalculations
+[16:44:31] [main/ERROR]: Error occurred applying transform of coremod META-INF/asm/multipart.js function render
+java.lang.NullPointerException: null
+	at org.objectweb.asm.tree.InsnList.insert(InsnList.java:343) ~[asm-tree-9.1.jar:9.1]
+	at jdk.nashorn.internal.scripts.Script$Recompilation$109$5956A$\^eval\_.initializeCoreMod$transformer-3(<eval>:135) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:638) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:229) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:387) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:110) ~[nashorn.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-4.0.6.jar:4.0.6+14+master.c21a551]
+	at net.minecraftforge.coremod.NashornFactory$$Lambda$435/1131577797.apply(Unknown Source) ~[?:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:18) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:10) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) [coremods-4.0.6.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:111) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$null$8(LaunchPluginHandler.java:97) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler$$Lambda$462/153623833.buildTransformedClassNodeFor(Unknown Source) [modlauncher-8.1.3.jar:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:779) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) [mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) [modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) [modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_51]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_51]
+	at java.lang.Class.forName(Class.java:348) [?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.29.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$503/1239935217.call(Unknown Source) [forge-1.16.5-36.2.29.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+[16:44:31] [main/INFO]: Patching RepairContainer#updateRepairOutput
+[16:44:31] [main/INFO]: Successfully removed the anvil level cap.
+[16:44:31] [main/INFO]: Patching RepairContainer#updateRepairOutput
+[16:44:31] [main/INFO]: Successfully allowed nbt-unbreakable items in the anvil.
+[16:44:31] [main/INFO]: Patching net/minecraft/inventory/container/RepairContainer
+[16:44:31] [main/INFO]: Patching AnvilScreen#drawGuiContainerForegroundLayer
+[16:44:31] [main/INFO]: Patching Item#getItemEnchantability
+[16:44:31] [main/INFO]: start
+[16:44:31] [main/INFO]: find block call
+[16:44:31] [main/INFO]: Patching net/minecraft/loot/functions/EnchantRandomly
+[16:44:32] [main/WARN]: Force-disabling mixin 'features.item.MixinItemRenderer' as rule 'mixin.features.item' (added by mods [quark, tconstruct, twilightforest, codechickenlib]) disables it and children
+[16:44:32] [main/WARN]: Force-disabling mixin 'features.world_ticking.MixinClientWorld' as rule 'mixin.features.world_ticking' (added by mods [abnormals_core]) disables it and children
+[16:44:32] [main/WARN]: Error loading class: biomesoplenty/common/world/BOPBiomeProvider (java.lang.ClassNotFoundException: null)
+[16:44:32] [main/WARN]: Error loading class: com/ferreusveritas/dynamictrees/worldgen/BiomeRadiusCoordinator (java.lang.ClassNotFoundException: null)
+[16:44:32] [main/WARN]: Error loading class: com/ferreusveritas/dynamictrees/worldgen/TreeGenerator (java.lang.ClassNotFoundException: null)
+[16:44:32] [main/INFO]: Patching ItemStack#onItemUse
+[16:44:33] [main/INFO]: Patching EnchantmentHelper#getEnchantmentModifierDamage
+[16:44:33] [main/INFO]: Patching EnchantmentHelper#getModifierForCreature
+[16:44:33] [main/INFO]: Patching EnchantmentHelper#applyThornEnchantments
+[16:44:33] [main/INFO]: Patching EnchantmentHelper#applyArthropodEnchantments
+[16:44:33] [main/INFO]: Patching buildEnchantmentList for the Enchantability affix.
+[16:44:33] [main/INFO]: Patching EnchantmentHelper#getEnchantmentDatas
+[16:44:33] [main/INFO]: Patching TemptGoal#isTempting
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinWidget | TO TARGET: net.minecraft.client.gui.widget.Widget
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinImageButton | TO TARGET: net.minecraft.client.gui.widget.button.ImageButton
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinAbstractList | TO TARGET: net.minecraft.client.gui.widget.list.AbstractList
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinScreen | TO TARGET: net.minecraft.client.gui.screen.Screen
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinMinecraft | TO TARGET: net.minecraft.client.Minecraft
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinResourceLoadProgressGui | TO TARGET: net.minecraft.client.gui.ResourceLoadProgressGui
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinAbstractGui | TO TARGET: net.minecraft.client.gui.AbstractGui
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinOnlineServerEntry | TO TARGET: net.minecraft.client.gui.screen.ServerSelectionList$NormalEntry
+[16:44:33] [main/INFO]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinWorldListEntry | TO TARGET: net.minecraft.client.gui.screen.WorldSelectionList$Entry
+[16:44:35] [main/INFO]: Patching BlockModelShapes#getModelLocation
+[16:44:35] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[16:44:35] [main/INFO]: Patching LivingEntity#blockUsingShield
+[16:44:35] [main/INFO]: Patching LivingEntity#applyPotionDamageCalculations
+[16:44:35] [main/INFO]: Patching SharedMonsterAttributes#readAttributeModifier
+[16:44:36] [main/ERROR]: Error occurred applying transform of coremod META-INF/asm/multipart.js function render
+java.lang.NullPointerException: null
+	at org.objectweb.asm.tree.InsnList.insert(InsnList.java:343) ~[asm-tree-9.1.jar:9.1]
+	at jdk.nashorn.internal.scripts.Script$Recompilation$109$5956A$\^eval\_.initializeCoreMod$transformer-3(<eval>:135) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:638) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:229) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:387) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:110) ~[nashorn.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-4.0.6.jar:4.0.6+14+master.c21a551]
+	at net.minecraftforge.coremod.NashornFactory$$Lambda$435/1131577797.apply(Unknown Source) ~[?:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:18) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:10) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) [coremods-4.0.6.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:111) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) [modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_51]
+	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:307) [?:?]
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101) [?:?]
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54) [?:?]
+	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:425) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:122) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.29.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$503/1239935217.call(Unknown Source) [forge-1.16.5-36.2.29.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+[16:44:36] [main/WARN]: Static binding violation: PRIVATE @Overwrite method func_228441_a_ in magnesium.mixins.json:features.chunk_rendering.MixinWorldRenderer cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[16:44:36] [main/WARN]: Static binding violation: PRIVATE @Overwrite method func_228437_a_ in magnesium.mixins.json:features.chunk_rendering.MixinWorldRenderer cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.lang.reflect.InvocationTargetException
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$503/1239935217.call(Unknown Source)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[16:44:36] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 4 more
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:307)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:425)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	at net.minecraft.client.main.Main.main(Main.java:122)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:643]: 	... 11 more
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Redirector redirectGetFancyWeather()Z in magnesium.mixins.json:features.options.MixinWorldRenderer failed injection check, (0/1) succeeded. Scanned 1 target(s). Using refmap magnesium.refmap.json
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:468)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1362)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1051)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[16:44:36] [main/INFO]: [java.lang.Throwable:printStackTrace:667]: 	... 26 more
